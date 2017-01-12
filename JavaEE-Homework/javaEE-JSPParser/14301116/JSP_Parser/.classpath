@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/delltc1/Desktop/JAVAEE3-3e1b6be666ce9c74dce433594e030b825b35255c/WebContent/WEB-INF/lib/dom4j-2.0.0-ALPHA1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/delltc1/Desktop/Temporary file/工程及工程配置/jar/servlet-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

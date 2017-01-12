@@ -1,0 +1,7 @@
+springIOC
+实现注解扫描依赖注入+构造器注入+Xml扫描Property注入 
+
+将环境导入eclipse，运行test.java
+（工程内部测试用例与规定测试用例一致）
+即可得到依赖注入后的输出：
+this boss has the car is red with 001 and in office 001

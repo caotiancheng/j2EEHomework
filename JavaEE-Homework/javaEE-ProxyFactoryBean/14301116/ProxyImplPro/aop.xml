@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="fooTarget" class="test.edu.javaee.spring.aop.FooImpl"/>
+	<bean id="myAdvice" class="test.edu.javaee.spring.aop.PrintBeforeAdvice"/>
+	<bean id="foo" class="dev.edu.javaee.spring.aop.framework.ProxyFactoryBean">
+    	<property name="proxyInterfaces">
+    		<value>test.edu.javaee.spring.aop.FooInterface</value>
+    	</property>
+    	<property name="target">
+     		<ref local="fooTarget"/>
+     	</property>
+    	<property name="interceptorNames">
+     		<list>
+        		<value>myAdvice</value>
+     		</list>
+    	</property>
+    </bean>
+  </beans>
